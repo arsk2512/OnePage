@@ -91,7 +91,12 @@
   }
   .about-sec .recognations div {
     min-width: 150px;
-    line-height: 1.2px;
+  }
+  .recognations div .numbers {
+    line-height: 1.5;
+  }
+  .recognations div .records {
+    margin-bottom: 10px;
   }
   .about-sec .our-work {
     flex-direction: column;
@@ -123,9 +128,10 @@
     display: flex;
     padding: 20px 7px;
     overflow: auto;
+    gap: 30px;
   }
   .about-sec .clients .image-container {
-    width: 80px;
+    min-width: 80px;
   }
   .about-sec .testimonial-sec {
     padding: 40px 20px 0px;
