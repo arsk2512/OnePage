@@ -151,64 +151,212 @@
   .testimonial-sec .people .col:hover {
   transform: scale(1.01);
   }
+
   /*Services Section*/
   .services-sec .title {
-    padding: 50px 10px;
+    padding: 40px 10px;
+  }
+  .services-sec .title h3 {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+  .services-sec .title p {
+    font-size: 14px;
+    line-height: 1.1;
   }
   .services-sec .card-sec{
     grid-template-columns: auto;
     padding: 0 20px 50px;
   }
+  .services-sec .card-sec .card {
+    padding: 40px 15px;
+    width: 90%;
+    margin: auto;
+  }
+  .services-sec .card-sec .card:hover {
+    transform: scale(1.01);
+  }
   .services-sec .blue-row {
-    padding: 50px 20px;
+    padding: 20px 20px;
+  }
+  .blue-row h4 {
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+  .blue-row p {
+    line-height: 1.1;
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+  .blue-row button {
+    padding: 6px 12px;
+    font-size: 12px;
+
   }
   /*Portfolio Section*/
   .portfolio-sec {
-    padding: 50px 0;
+    padding: 40px 0;
+  }
+  .portfolio-sec .title h3 {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+  .portfolio-sec .title p {
+    font-size: 14px;
+    line-height: 1.1;
   }
   .portfolio-sec .img-grid {
     grid-template-columns: auto;
+    margin-top: 30px;
   }
   .portfolio-sec .img-grid .col1 {
     grid-template-rows: 2fr 4fr;
   }
+  .portfolio-sec .img-grid .col-container .item img {
+    transform: scale(0.8);
+  }
+  .portfolio-sec .img-grid .col-container .item img:hover {
+    transform: scale(0.9);
+  }
   /*Team Section*/
   .team-sec {
-    padding: 50px 20px;
+    padding: 40px 20px 0;
+  }
+  .team-sec .title h3 {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+  .team-sec .title p {
+    font-size: 14px;
+    line-height: 1.1;
+    margin-bottom: 0;
   }
   .team-sec .card-sec {
     grid-template-columns: auto;
-    padding: 50px 0;
+    padding: 30px 0;
+  }
+  .team-sec .card-sec .card:hover {
+    transform: scale(1.01);
   }
   .team-sec .card-sec .card .profile-container {
     height: 300px;
   }
   /*Pricing Section*/
   .pricing-sec {
-    padding: 50px 20px;
+    padding: 40px 20px;
+  }
+  .pricing-sec .title h3 {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+  .pricing-sec .title p {
+    font-size: 14px;
+    line-height: 1.1;
+    margin-bottom: 30px;
   }
   .pricing-sec .card-sec {
     grid-template-columns: auto;
   }
+  .pricing-sec .card-sec .card {
+    padding: 30px;
+  }
+  .pricing-sec .card-sec .card:hover {
+    transform: scale(1.01);
+  }
+  .pricing-sec .card-sec .card h4 {
+    margin-bottom: 1rem;
+  }
+  .pricing-sec .card-sec .card .line-2 {
+    line-height: 1.5;
+  }
+  .pricing-sec .card-sec .card .content button {
+    padding: 8px 24px;
+    font-size: 14px;
+  }
   /*FAQ section*/
+  .faq-sec {
+    padding: 40px 0 0;
+  }
   .faq-sec .title {
-    padding: 0 20px 50px;  
+    padding: 0 20px 30px;  
+  }
+  .faq-sec .title h3 {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+  .faq-sec .title h3 p {
+    font-size: 14px;
+    line-height: 1.1;
   }
   .faq-sec main {
     padding: 0 20px 30px;
   }
+  .faq-sec main .rows {
+    padding: 10px;
+  }
+  .faq-sec main .rows:hover {
+    transform: scale(1.01);
+  }
+  .faq-sec main .rows .line1 {
+    font-size: 14px;
+    line-height: 1;
+  }
+  .faq-sec main .rows .left-sec i {
+    font-size: 16px;
+  }
+  .faq-sec main .rows:hover .line2 {
+    font-size: 12px;
+    margin-top: 5px;
+    line-height: 1;
+  }
+
   /*Contact-Section*/
   .contact-sec {
-    padding: 50px 20px;
+    padding: 40px 20px;
+  }
+  .contact-sec .title h3 {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+  .contact-sec .title p {
+    font-size: 14px;
+    line-height: 1.1;
   }
   .contact-sec .map-area {
     height: 200px;
   }
   .contact-sec main {
     display: block;
+    padding-top: 30px;
+  }
+  .contact-sec main .details-area {
+    gap: 1rem;
+    padding: 0;
+  }
+  .contact-sec main .details-area .rows .img-container {
+    height: 30px;
+    width: 30px;
+  }
+  .contact-sec main .details-area .rows .img-container span {
+    font-size: 20px;
+  }
+  .contact-sec main .details-area .rows .detail-container h3 {
+    font-size: 18px;
+    padding-bottom: 0;
+  }
+  .contact-sec main .details-area .rows .detail-container p {
+    font-size: 14px;
   }
   .contact-sec main form {
-    padding-top: 50px;
+    padding-top: 30px;
+  }
+  .contact-sec main .form-area input {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+  .contact-sec main .form-area .button-row button {
+    padding: 8px 18px;
+    font-size: 12px;
   }
   .contact-sec main .form-area,
   .contact-sec main .form-area .row1 {
@@ -216,14 +364,33 @@
   }
   /*Footer Section*/
   footer .info-sec {
-    padding: 50px 20px;
+    padding: 40px 20px;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
+  }
+  footer .info-sec .left-col h3 {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+  }
+  footer .info-sec .left-col .phone {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  footer .info-sec .left-col p {
+    font-size: 14px;
   }
   footer .info-sec .middle-col {
     flex-direction: column;
     gap: 30px;
   }
+  footer .info-sec .right-col .input-row .bar {
+    padding: 8px;
+  }
+  footer .info-sec .right-col .input-row .subs-btn {
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+
   footer .author-row {
     padding: 30px 20px;
     gap: 15px;
@@ -236,15 +403,15 @@
     margin-bottom: 5px;
   }
   footer .author-row .right-sec {
-    gap: 8px2;
+    gap: 8px;
   }
-  footer .author-row .right-sec div,
-  footer .refresh {
-    width: 28px;
-    height: 28px;
+  
+  footer .author-row .right-sec div {
+    width: 24px;
+    height: 24px;
     font-size: 14px;
   }
-  footer .refresh a {
-    font-size: 14px;
+  footer .author-row .right-sec div i {
+    font-size: 12px;
   }
 }
